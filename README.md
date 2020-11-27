@@ -9,6 +9,10 @@
 
 Small library for adding and removing advice to functions.
 
+## Usage
+
+Allows to edit the value of a variable in an elisp buffer. run `counsel-describe-variable` and use optional action (`M-o`) `e` for edit.
+
 ## Installation
 
 <!-- ### MELPA -->
