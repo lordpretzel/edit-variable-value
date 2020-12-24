@@ -88,7 +88,7 @@
                   ;; return primitive types literally
                   ((or (stringp val) (integerp val) (floatp val)) val)
                   ;; otherwise we have to quote
-                  (t (concat "'" (prin1-to-string val)))
+                  (t (concat "'" (pp-to-string val)))
                   ))
          )
     (switch-to-buffer buf)
